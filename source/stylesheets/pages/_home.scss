@@ -1,27 +1,35 @@
-#home {
-  background-color: #D23333;
+.banner h1 {
   color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
+  font-size: 72px;
 }
 
+.banner p {
+  color: white;
+  font-size: 36px;
+}
 
-.banner {
-  min-height: 100vh;
+.logo-mooc {
+  min-width: 100px;
+  min-height: 50px;
+  text-align: right;
+  padding: 40px 0 0 0;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 48px;
+  color: $dark_blue;
+}
+
+.logos {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-size: cover !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  div {
+    padding: 0 15px;
+  }
 }

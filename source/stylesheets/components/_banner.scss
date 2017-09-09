@@ -1,8 +1,39 @@
 .banner {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: flex-start;
   background-size: cover !important;
+  background-position: bottom;
+  .content-main {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 100px;
+    .button {
+      align-self: flex-end;
+    }
+  }
+  span {
+    border-bottom: 1px solid $blue;
+    box-shadow: inset 0 -15px $blue;
+  }
+}
+
+
+.banner-video {
+  background-color: white;
+  min-height: 100vh;
+  .video {
+    max-width: 1000px;
+    margin: auto;
+  }
+}
+
+.banner-partners {
+  min-height: 105vh;
+  background-color: #F4F7F8;
+  h3 {
+    margin-top: 40px;
+  }
 }
