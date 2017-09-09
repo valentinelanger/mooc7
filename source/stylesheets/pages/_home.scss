@@ -15,3 +15,13 @@
     font-size: 16px;
   }
 }
+
+
+.banner {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover !important;
+}
