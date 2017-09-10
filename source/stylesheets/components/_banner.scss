@@ -10,8 +10,14 @@
     justify-content: flex-start;
     flex-direction: column;
     margin-left: 100px;
+    position: relative;
+    padding-bottom: 145px;
     .button {
       align-self: flex-end;
+      margin: 25px 0;
+      position: absolute;
+      bottom: 0;
+      right: -50px;
     }
   }
   span {
