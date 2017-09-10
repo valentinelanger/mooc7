@@ -74,7 +74,7 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
   #
-  require_relative ".lib/build_cleaner"
+  require_relative "./lib/build_cleaner"
   activate :build_cleaner
 end
 
