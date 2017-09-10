@@ -12,7 +12,7 @@
   min-width: 100px;
   min-height: 50px;
   text-align: right;
-  padding: 40px 0 0 0;
+  padding: 25px 0 0 0;
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-  font-size: 48px;
+  font-size: 42px;
   color: $dark_blue;
 }
 
@@ -37,6 +37,12 @@ h3 {
 .logo img {
   width: 300px;
   height: 273px;
+}
+
+.teaser {
+  width: 900px;
+  margin: 10px auto 30px auto;
+  display: block;
 }
 
 
