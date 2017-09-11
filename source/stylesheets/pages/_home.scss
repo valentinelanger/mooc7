@@ -1,4 +1,4 @@
-.banner h1 {
+h1 {
   color: white;
   font-size: 72px;
 }
@@ -38,14 +38,11 @@ h3 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  img {
-    padding: 0 20px;
-  }
 }
 
 .logo img {
   width: 300px;
-  height: 273px;
+  padding: 0 20px;
 }
 
 .teaser {
@@ -54,4 +51,44 @@ h3 {
   display: block;
 }
 
+@media(max-width: 720px) {
+  h1 {
+    font-size: 36px;
+    width: 80%;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 21px;
+    color: $dark_blue;
+  }
+  .banner p, .banner-partners p {
+    font-size: 18px;
+  }
+  .banner p {
+    width: 80%;
+  }
+  .banner h1, p {
+    margin-left: 15px;
+  }
+  .logo-white img, .logo-mooc img {
+    margin-right: 15px;
+    width: 160px;
+  }
+  .banner {
+    background-position-x: right;
+    background: url('../images/banner_parapluie_small3.png') !important;
+  }
+  .teaser {
+    width: 350px;
+  }
+  .banner-video {
+    min-height: 50vh;
+  }
+  .logo img {
+    width: 200px;
+    padding: 0;
+  }
+}
 

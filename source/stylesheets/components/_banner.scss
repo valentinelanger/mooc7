@@ -10,16 +10,8 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-
     position: relative;
     padding-bottom: 145px;
-    .button {
-      align-self: flex-end;
-      margin: 25px 0;
-      position: absolute;
-      bottom: 55px;
-      right: -130px;
-    }
   }
   span {
     border-bottom: 1px solid $blue;
