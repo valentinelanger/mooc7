@@ -2,7 +2,9 @@
 title: MOOC7
 ---
 
-<div class="banner" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.1) 0%), url('<%= image_path("banner_parapluie_good.png") %>');">
+<div class="banner" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.1) 0%), url('<%= image_path("banner_parapluie_good2.png") %>');">
+  <div class="logo-white"><%= image_tag "mooc7_white_good.png" %></div>
+  <div class="row">
     <div class="col-xs-12 col-sm-6">
       <div class="content-main">
         <h1>7 semaines pour trouver le job de mes rêves</h1>
@@ -10,6 +12,7 @@ title: MOOC7
         <a href="http://trouverlejobdemesreves.moocit.fr/"><button class="button">inscription</button></a>
       </div>
     </div>
+  </div>
 </div>
 
 <div class="banner-video">
@@ -18,7 +21,7 @@ title: MOOC7
       <div class="col-xs-12">
         <div class="logo-mooc"><%= image_tag "logo_mooc7.png" %></div>
         <h3 class="title-video">Découvrez le Mooc</h3>
-        <video autoplay type="video/mp4" class="teaser text-center" src="images/teaser_mooc.mp4"></video>
+        <video controls type="video/mp4" class="teaser text-center" src="images/teaser_mooc.mp4"></video>
       </div>
     </div>
   </div>
@@ -29,7 +32,7 @@ title: MOOC7
       <div class="col-xs-12">
         <h3>Les partenaires du Mooc7</h3>
         <p>Créé par</p>
-        <div class="logos-founders">
+        <div class="logos">
           <div class="logo">
             <a href="http://laetsmind.com/" target="_blank"><%= image_tag "logo_laetsmind_good.png" %></a>
           </div>
@@ -38,18 +41,20 @@ title: MOOC7
           </div>
         </div>
         <p>En partenariat avec</p>
-        <div class="logos-partners">
-          <div class="logo">
-            <a href="https://www.emploi-store.fr/portail/accueil" target="_blank"><%= image_tag "logo_poleemploi_good.png" %></a>
-          </div>
-          <div class="logo">
-            <a href="https://www.lyon-metropole.cci.fr/jcms/accueil-j_6.html" target="_blank"><%= image_tag "logo_cci_good.png" %></a>
-          </div>
+        <div class="logos">
           <div class="logo">
             <a href="https://www.univ-st-etienne.fr/fr/index.html" target="_blank"><%= image_tag "logo_ujm_good.png" %></a>
           </div>
           <div class="logo">
             <a href="http://www.compagnons-du-devoir.com/" target="_blank"><%= image_tag "logo_compagnons_good.png" %></a>
+          </div>
+        </div>
+        <div class="logos">
+          <div class="logo">
+            <a href="https://www.emploi-store.fr/portail/accueil" target="_blank"><%= image_tag "logo_poleemploi_good.png" %></a>
+          </div>
+          <div class="logo">
+            <a href="https://www.lyon-metropole.cci.fr/jcms/accueil-j_6.html" target="_blank"><%= image_tag "logo_cci_good.png" %></a>
           </div>
         </div>
       </div>

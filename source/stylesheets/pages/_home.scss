@@ -8,6 +8,16 @@
   font-size: 36px;
 }
 
+.logo-white {
+  align-self: flex-end;
+  img {
+  margin-right: 110px;
+  margin-top: 40px;
+  min-width: 100px;
+  text-align: right;
+  }
+}
+
 .logo-mooc {
   min-width: 100px;
   min-height: 50px;
@@ -24,20 +34,10 @@ h3 {
   color: $dark_blue;
 }
 
-.logos-founders {
+.logos {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  img {
-    padding: 0 20px;
-  }
-}
-
-.logos-partners {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
   img {
     padding: 0 20px;
   }
