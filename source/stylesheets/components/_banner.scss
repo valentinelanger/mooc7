@@ -16,8 +16,8 @@
       align-self: flex-end;
       margin: 25px 0;
       position: absolute;
-      bottom: 0;
-      right: -50px;
+      bottom: 55px;
+      right: -130px;
     }
   }
   span {
@@ -40,5 +40,9 @@
   background-color: #F4F7F8;
   h3 {
     margin-top: 40px;
+  }
+  p {
+    font-size: 28px;
+    color: $dark_blue;
   }
 }
