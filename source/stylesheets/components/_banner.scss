@@ -26,6 +26,18 @@
   h3 {
     margin-top: 0px;
   }
+    p {
+    font-size: 28px;
+    color: $dark_blue;
+  }
+  .play-size {
+    display: flex;
+    justify-content: flex-start;
+  }
+  img {
+    margin-top: 6px;
+    margin-left: 15px;
+  }
 }
 
 .banner-partners {
