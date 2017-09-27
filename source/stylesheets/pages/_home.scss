@@ -11,7 +11,7 @@ h1 {
 .logo-white {
   align-self: flex-end;
   img {
-  margin-right: 110px;
+  margin-right: 80px;
   margin-top: 40px;
   min-width: 100px;
   text-align: right;
@@ -65,6 +65,13 @@ h3 {
   }
   .banner p, .banner-partners p {
     font-size: 18px;
+  }
+  .banner p, .banner-video p {
+    font-size: 18px;
+  }
+  .play-size img {
+    width: 40%;
+    margin-top: 0px;
   }
   .banner p {
     width: 80%;
